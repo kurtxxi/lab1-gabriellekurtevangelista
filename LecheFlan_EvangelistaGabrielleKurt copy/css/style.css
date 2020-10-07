@@ -1,0 +1,591 @@
+body{
+	background-color:#E3E8E9
+	;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.container1{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #9DA993;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 0%;
+  }
+  
+  li a:hover {
+	background-color: #E4B4B4;
+  }
+
+a{
+	text-decoration: none;
+	color:rgb(255, 255, 255);
+}
+
+a:hover{
+	color:#9DA993;
+}
+
+a:active{
+	color:#9DA993;
+}
+
+#main-header{
+	background-color:#BCA88E;
+	color:#fff;
+	text-align: center;
+}
+
+.box-1 h1{
+	font-family:Tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-transform:uppercase;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.polaroid-image {
+	width: 100%;
+	border-radius: 25px 25px 0 0;
+	height: 40vh;
+}
+
+.polaroid {
+	height: auto;
+	width: 40%;
+	margin: auto;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 2px 4px 8px 3px Gainsboro;
+}
+
+
+.caption {
+	padding: 0 20px 20px 20px;
+}
+  
+  img {width: 100%}
+  
+  div.container {
+	text-align: center;
+	padding: 10px 20px;
+  }
+
+#navbar{
+	background-color:#9DA993;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-image:url('../images/logo.png');
+	background-attachment: fixed;	
+	background-position: center;
+	min-height:500px;
+	margin-bottom:30px;
+	padding:10px;
+}
+
+#main{
+	float:right;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:left;
+	width:30%;
+	background: #BCA88E;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+	font-weight: bolder;
+	font-size: medium;
+
+}
+
+#sidebar1{
+	float:left;
+	width:30%;
+	background: #BCA88E;
+	color:#fff;
+	padding:50px;
+	box-sizing: border-box;
+	font-weight: bolder;
+	font-size: medium;
+
+}
+
+#main1{
+	float:right;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar1{
+	float:left;
+	width:30%;
+	background: #BCA88E;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+	font-weight: bolder;
+	font-size: medium;
+}
+
+.main-block{
+	float:center;
+	width:70%;
+	padding:15px;
+	box-sizing: border-box;
+	background-color: #BCA88E;
+	color: #fff;
+}
+
+.block1{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+	background-color: #BCA88E;
+	color: #fff;
+	font-weight: bolder;
+	font-size: medium;
+	
+}
+	
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+	background-color: #BCA88E;
+
+}
+
+.categories h2{
+	text-align:center;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.categorie{
+	border:1px #9DA993;
+	padding:10px;
+	border-radius:15px;
+	background-color: #9DA993
+	
+}
+
+.categorieh10{
+	text-align:center;
+	color: white;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.polaroid-image {
+	width: 100%;
+	border-radius: 25px 25px 0 0;
+	height: 40vh;
+}
+
+.polaroid-2 {
+	height: auto;
+	width: 40%;
+	margin: auto;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 2px black;
+}
+
+.caption {
+	padding: 0 20px 20px 20px;
+}
+  
+  img {width: 100%}
+  
+  div.container {
+	text-align: left;
+	padding: 25px;
+  }
+
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  .column {
+	flex: 50%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+
+  .polaroid-3 {
+	height: auto;
+	width: 40%;
+	margin: auto;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 2px black;
+}
+
+.caption {
+	padding: 0 20px 20px 20px;
+}
+  
+  img {width: 100%}
+  
+  div.container {
+	text-align: right;
+	padding: 10px 20px;
+  }
+
+  .column {
+	flex: 50%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+
+  .polaroid-4 {
+	height: auto;
+	width: 40%;
+	margin: auto;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 2px 4px 8px 3px Gainsboro;
+}
+
+.caption {
+	padding: 0 20px 20px 20px;
+}
+  
+  img {width: 100%}
+  
+  div.container {
+	text-align: left;
+	padding: 10px 20px;
+  }
+
+  .column {
+	flex: 50%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+
+  .polaroid-5 {
+	height: auto;
+	width: 40%;
+	margin: auto;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 2px 4px 8px 3px Gainsboro;
+}
+
+.caption {
+	padding: 0 20px 20px 20px;
+}
+  
+  img {width: 100%}
+  
+  div.container {
+	text-align: center;
+	padding: 10px 20px;
+  }
+
+  .column {
+	flex: 50%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+
+  .polaroid-6 {
+	height: auto;
+	width: 40%;
+	margin: auto;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 2px 4px 8px 3px Gainsboro;
+}
+
+.caption {
+	padding: 0 20px 20px 20px;
+}
+  
+  img {width: 100%}
+  
+  div.container {
+	text-align: center;
+	padding: 10px 20px;
+  }
+
+  .column {
+	flex: 50%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+	background-color: #BCA88E;
+}
+
+.categories h3{
+	text-align:center;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#main5{
+	float:right;
+	width:100%;
+	height: auto;
+	padding:0 30px;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#sidebar5{
+	float:left;
+	width:30%;
+	background: #BCA88E;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.nutritional-facts__title{
+	font-size: 20px;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:1px;
+	background-color: #BCA88E;
+}
+
+.categories h4{
+	text-align:center;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+.main-block-1{
+	float:left;
+	width:70%;
+	padding:15px;
+	box-sizing: border-box;
+	background-color: #9DA993;
+	color: #fff;
+	
+}
+	.block2{
+		float:left;
+		width:33.3%;
+		border:1px solid #ccc;
+		padding:10px;
+		box-sizing:border-box;
+		background-color: #9DA993;
+		color: #fff;
+		font-weight: bolder;
+		font-size: medium;
+		
+	}
+	
+	.image {
+		width: 250px;
+		float: left;
+		margin: 20px;
+	  }
+	  body {
+		font-size: small;
+		line-height: 1.4;
+	  }
+	  p {
+		margin: 0;
+	  }
+	  
+	  
+	  .warning {
+		width: 200px;
+		height: 121px;
+	  }
+	  
+	  
+	  .box-2{
+		font-size: large;
+		border:3px dotted #ccc;
+		padding:20px;
+		margin:20px 0;
+		background-color: #BCA88E;
+		color: white;
+	}
+
+	.categorieslast{
+		border:0px;
+		padding:10px;
+	
+	}
+	
+	.categories h2{
+		text-align:center;
+	}
+	
+	.categories ul{
+		padding:0;
+		padding-left:20px;
+		list-style:square;
+		list-style:none;
+		background-color:#9DA993;
+	}
+	
+#main-footer{
+	background: #9DA993;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+.imgstep{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 550px;
+height 550px:
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(2, 50fr);
+	grid-template-rows: repeat(4, 35vw);
+	grid-gap: 20x;
+	padding-left: 4em;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
